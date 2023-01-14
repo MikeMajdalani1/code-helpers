@@ -6,3 +6,9 @@
 html {
   font-size: 30px;
 }
+div {
+  margin-bottom: 50px;
+}
+.selectionDisabled {
+  user-select: none;
+}

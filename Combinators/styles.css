@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 30px;
+}
+
+/* Selects all h1 elements inside a .container class element */
+.container h1 {
+  color: blue;
+}
+
+/* Selects all the p element directly inside a .container class element */
+.container > p {
+  color: green;
+}
+
+/* Selects the first p element immediately after h1 element */
+h1 + p {
+  text-decoration: underline;
+}

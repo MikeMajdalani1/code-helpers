@@ -6,3 +6,9 @@
 html {
   font-size: 30px;
 }
+
+/*selects all div elements that contains h1 tags*/
+
+div:has(h1) {
+  color: red;
+}

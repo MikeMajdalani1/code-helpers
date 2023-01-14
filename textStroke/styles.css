@@ -6,3 +6,8 @@
 html {
   font-size: 30px;
 }
+
+h1 {
+  -webkit-text-stroke: 3px rgb(6, 6, 6);
+  -webkit-text-fill-color: darkcyan;
+}

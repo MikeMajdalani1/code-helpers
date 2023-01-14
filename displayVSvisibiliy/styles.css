@@ -1,0 +1,9 @@
+.displayNone {
+  display: none;
+}
+.visibilityHidden {
+  visibility: hidden;
+}
+p {
+  margin-bottom: 60px;
+}

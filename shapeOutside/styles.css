@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 30px;
+}
+img {
+  shape-outside: circle(50%);
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+p {
+  width: 600px;
+}

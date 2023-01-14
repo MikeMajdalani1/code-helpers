@@ -9,6 +9,7 @@ html {
 div {
   margin-bottom: 50px;
 }
+
 .selectionDisabled {
   user-select: none;
 }

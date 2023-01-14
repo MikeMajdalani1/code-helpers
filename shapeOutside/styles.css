@@ -7,11 +7,14 @@ html {
   font-size: 30px;
 }
 img {
-  shape-outside: circle(50%);
-  float: left;
   width: 200px;
   height: 200px;
+  float: left;
 }
 p {
   width: 600px;
+  margin-bottom: 40px;
+}
+.rounded {
+  shape-outside: circle(50%);
 }

@@ -6,7 +6,3 @@
 html {
   font-size: 30px;
 }
-
-div:has(h1) {
-  color: red;
-}

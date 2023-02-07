@@ -1,7 +1,8 @@
-body {
-  counter-reset: section;
+h1 {
+  counter-reset: heading;
 }
-h1::before {
-  counter-increment: section;
-  content: "Section " counter(section) ": ";
+
+h1:before {
+  counter-increment: heading;
+  content: counter(heading) ". ";
 }

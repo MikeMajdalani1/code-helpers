@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 30px;
+}
+
+p::first-letter {
+  font-size: 70px;
+  color: red;
+}
+
+p::selection {
+  background: yellow;
+  color: black;
+}
